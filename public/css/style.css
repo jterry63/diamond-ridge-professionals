@@ -1358,10 +1358,11 @@ color: #fff;
 	font-size: 14px;
 	color: #fff;
 	padding-left: 15px;
+	cursor: default!important;
 }
-.footer-service-list ul li:hover a,.footer-service-list ul li:hover::before {
+/* .footer-service-list ul li:hover a,.footer-service-list ul li:hover::before {
 	color: #2a428c;
-}
+} */
 /* ......./ */
 .footer-widegt-contact h3 {
 	color: #2a428c;
@@ -1554,7 +1555,7 @@ a.readm-btn2 {
 
 .testimonials{
 	padding: 40px 0;
-	background: #f1f1f1;
+	background-image: url(../img/about/about-bg.jpg);
 	color: #726262;
 	text-align: center;
   }
