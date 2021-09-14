@@ -193,7 +193,7 @@ label {
 }
 /* button style */
 a.readm-btn {
-	font-size: 13px;
+	font-size: 20px;
 	color: #2a428c;
 	font-weight: 600;
 	}
@@ -665,6 +665,20 @@ strong{
 	left: 0;
 	bottom: 0;
 }
+.line-bar2{
+	position: relative;
+	display: block;
+	z-index: 9;
+}
+.line-bar2::before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 5px;
+  height: 100%;
+	left: 0;
+	bottom: 0;
+}
 .about-first-p {
 	font-weight: 600;
 	margin-bottom: 20px;
@@ -735,7 +749,7 @@ strong{
 	bottom: 0;
 } */
 .service-text {
-	font-size: 17px;
+	font-size: 15px;
 	color: #fff;
 	line-height: 27px;
 	margin-bottom: 30px;
@@ -1485,9 +1499,7 @@ color: #fff;
 }
 
 .deck-tiles-img{
-	margin-top: -300px;
 	margin-left: 100%;
-	padding: 20px;
 }
 
 .deck-tiles-img-mobile {
@@ -1525,7 +1537,7 @@ html {
 
 a.readm-btn2 {
 	
-		font-size: 13px;
+		font-size: 20px;
 		color: white;;
 		font-weight: 600;
 		}
@@ -1720,6 +1732,10 @@ a.readm-btn2 {
 	  display: block;
 	  visibility: visible;
 	}
+  }
+
+  #basement-background {
+	background-color: #2a428c;
   }
   
 

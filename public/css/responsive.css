@@ -115,8 +115,6 @@
         display: block;
     }
 
-  
-
     .deck-tiles-img-mobile {
         display: block;
     }
@@ -183,8 +181,15 @@
     .header-top-right {
         padding: 0px 0;
     }
-    
 
+    #bbb {
+        width: 35% !important;
+     }
+    
+    #bbb2 {
+       width: 120% !important;
+       margin-left: 0px !important
+    }
 
 
     .header-tr {
@@ -242,7 +247,6 @@
           
       }
 
-  
 
       #modalBody {
           font-size: 18px !important;
